@@ -195,7 +195,7 @@ setTimeout( () => {
 client.sendMessage(from, imageh, image, {thumbnail:fs.readFileSync('./fotobot/foto.jpeg'), quoted: btrai, caption: help(prefix)})
 	}, 1000)
 	client.updatePresence(from, Presence.composing)
-			tujuh = fs.readFileSync('./audios/vozdobot.mp3');
+			tujuh = fs.readFileSync('./audios/caminhao.mp3');
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 				break
 //COLOQUE AS INFORMAÇÕES SEM RETIRAR NENHUM SINAL			
